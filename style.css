@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-image: url(./szabo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputs{
+    background:  #6dc6ae ;
+    opacity: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 120px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10 px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 4px;
+
+}
+
+.data input{
+    padding: 4px;
+    outline: none;
+    border: 1px solid #6dc6ae;
+}
+
+.data button{
+     background: #35b592;
+     border: none;
+     color: #fff;
+     cursor: pointer;
+     padding: 5px;
+}
+
+.lists{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items:flex-start;
+}
+
+.box{
+
+    background: #6dc6ae;
+    opacity: 80%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.item{
+    background: #35b592;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    cursor: move;
+}
